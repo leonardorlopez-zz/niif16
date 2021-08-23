@@ -125,6 +125,7 @@ public class Utilidades {
 
                 } else {
                     item.write(new File("C:\\Users\\lrlopez\\Documents\\NetBeansProjects\\NIIF16\\src\\main\\webapp\\TXT\\" + item.getName()));
+//                     item.write(new File("../webapp/TXT/" + item.getName()));
                 }
             }
             //Le agrega NV a estado

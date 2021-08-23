@@ -132,7 +132,12 @@
                      <li><i class="fas">Fecha de Alta:  </i>
                             <% 
                           BCNIIFALT b1 = (BCNIIFALT)sess.getAttribute("flujoAlta");        
+                          if(b1==null){
+                              b1 = new BCNIIFALT();
+                          }else{
                           out.print(b1.getFechAlta());
+                              
+                          }
                             %>
                             </li> 
                     <li><i class="fas ">Tipo de Cambio:   </i> 
@@ -146,7 +151,13 @@
                     </li>
                     <li><i class="fas">Tasa de Desc Dolares:</i>
                         <% 
-                        out.print(b1.getTasDescDol()); %>
+                            if(b1==null){
+                                System.out.println("Es nulo");
+                            }else{
+                        out.print(b1.getTasDescDol()); 
+                                
+                            }
+                        %>
                     </li>
   
                 </ul>

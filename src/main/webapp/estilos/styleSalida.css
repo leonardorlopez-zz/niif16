@@ -4,6 +4,7 @@
 }
 
 body {
+    zoom: 75%;
     background: #181818;
     color: #fff;
     line-height: 1.6;

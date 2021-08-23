@@ -1,0 +1,10 @@
+Entidades\BCNIIFLUJ.class
+Utilidades\FechasManejo.class
+baseDeDatos\AdministradorDeConexiones.class
+Entidades\BCNIIFALT.class
+baseDeDatos\FlujoDAO.class
+Utilidades\Utilidades.class
+Utilidades\LectorMejorado.class
+Calculos\CalculoAltaFlujo.class
+ServletsNIIF\Alta_Datos_TXT_Servlet.class
+Utilidades\TIR.class
